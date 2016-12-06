@@ -1,5 +1,5 @@
 ---
-title: test
+title: Site title
 timezone: UTC
 collections:
   posts:
@@ -8,16 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
+url: ''
+baseurl: ''
+encoding: utf-8
+markdown: kramdown
 permalink: pretty
